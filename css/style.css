@@ -213,12 +213,12 @@ nav i {
 /**************************************
         BENEFITS SECTION (main)
 **************************************/
-.Benefit-container{
+.benefit{
     background-color: rgba(150,148,231,255);
     width: 100%;
     padding-bottom: 50px;
 }
-.Benefit-container h1{
+.benefit h1{
     text-align: center;
     color:white;
     padding: 50px 0;
@@ -362,12 +362,87 @@ footer{
         tablet version
 **************************************/
 
-@media all and(min-width:481px){
+@media all and (min-width: 481px){
     .container{
         display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
 
     }
     .card{
-        width: calc(100% / 3);
+        width: calc(100% / 3 - 20px);
     }
+    #doppio{
+        width: calc((100% / 3) * 2 - 30px );
+    }
+    /* testiomnial section  */
+    .testimonial-card{
+        display:flex;
+    }
+    .circle-img{
+        width: 500px;
+        height: 200px;
+        border-radius: 50%;
+        overflow: hidden;
+        margin: 10px;
+    }
+    .testiominal-card-info p{
+        font-size: 15px;
+    }
+    .testiominal-card-info h1{
+        font-size: 20px;
+    }
+    .testiominal-card-info{
+        text-align: start;
+    }
+    /* benefit section  */
+    .benefit-container{
+        display: flex;
+        flex-wrap: wrap;
+        width: 90%;
+        margin:auto;
+    }
+    .benefit-cart{
+        width: calc(50% -  20px);
+        height: calc(100% / 3);
+    }
+    /* about us section  */
+        .about-container{
+            display: flex;
+            width: 90%;
+            margin: auto;
+            justify-content: space-between;
+        }
+        .text{
+            min-width: 50%;
+            margin-right: 30px;
+        }
+        .text p{
+            font-size: 15px;
+        }
+        .about-dx{
+            max-width: 45%;
+        }
+        .about-dx .circle-img{
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            overflow: hidden;
+            margin: auto;
+        }
+        .about-dx h2{
+            font-size: 30px;
+        }
+        /* started section  */
+        .started-container p{
+            width: 70%;
+            margin: auto;
+        }
+        /* footer  */
+        .foot-container{
+            width: 60%;
+            margin: auto;
+        }
+
+
 }
