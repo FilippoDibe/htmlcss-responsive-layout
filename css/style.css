@@ -404,7 +404,6 @@ footer{
     }
     .benefit-cart{
         width: calc(50% -  20px);
-        height: calc(100% / 3);
     }
     /* about us section  */
         .about-container{
@@ -447,14 +446,102 @@ footer{
 /**************************************
         deskotpo version
 **************************************/
-@media all and (min-width: 781px) {
-        .head-contain{
-            width: 60%;
-        }
-        .desktop-nav ul {
-        display:flex;
-        }
-        nav i {
+@media screen and (min-width: 781px) {
+    /* header deskotop */
+    .head-contain{
+        width: 60%;
+    }
+    .fa-bars {
         display: none;
-        }
+    }
+    .desktop-nav{
+       display: block;
+    }
+    .desktop-nav ul {
+        display: flex;
+        list-style-type: none;
+    }
+    .desktop-nav li {
+        padding: 0 10px;
+    }
+    .desktop-nav a{
+        color: white;
+        text-decoration: none;
+    }
+    .button-white a {
+        color: black;
+        background-color: white;
+        padding: 5px 10px;
+        border-radius: 28px;
+    }
+    /* main desktop  */
+    .container{
+        width: 60%;
+    }
+    #doppio .card-info{
+        display: flex;
+    }
+    #phone {
+        margin-top:150px;
+    }
+    /* sezione planning  */
+    .planinning-info-contain{
+        width: 60%;
+        margin: auto;
+        display: flex;
+    }
+    .planning-sx{
+        max-width: 50%;
+        padding-top:100px;
+        
+    }
+    .card-planning{
+        max-width: 40%;
+        margin-top: 28%;
+    }
+    .card-planning img{
+        width: 60%;
+        margin-left: 100px;
+    }
+    /* sezione testimonial  */
+    .testimonials-container{
+        width: 60%;
+    }
+    .circle-img{
+        width: 250px;
+    }
+    .testiominal-card-info h1 {
+        padding-left: 40px;
+    }
+    /* benefit section  */
+    .benefit-container{
+        width: 60%;
+    }
+    .benefit-cart{
+        width: calc(100% / 3 - 20px);
+    }
+    /* abuout container  */
+    .about-container{
+        width: 60%;
+    }
+    .text p {
+        width: 80%;
+        font-size: 25px;
+    }
+    /* started section  */
+    .started-container{
+        width: 50%;
+    }
+    .started-container p{
+        width: 50%;
+    }
+    /* footer  */
+    .foot-container{
+        width: 50%;
+    }
+    .foot-container p {
+        width: 50%;
+        margin: auto;
+    }
+
 }
