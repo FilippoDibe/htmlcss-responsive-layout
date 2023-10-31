@@ -265,3 +265,96 @@ nav i {
     color: white;
     text-decoration: none;
 }
+/**************************************
+        ABOUT US SECTION (main)
+**************************************/
+.about-container{
+    width: 90%;
+    margin: auto;
+    padding:50px 0;
+}
+.about-container h1 {
+    font-size: 50px;
+    color:rgba(150,148,231,255) ;
+    padding-bottom: 40px
+}
+.about-container p{
+    line-height: 2;
+    font-size: 20px;
+    padding-bottom:30px;
+}
+.about-container h2{
+    color:rgba(150,148,231,255);
+    line-height: 1.5;
+    padding:30px 0;
+    font-size: 30px;
+}
+.button-linkedin a{
+    background-color: rgba(150,148,231,255);
+    padding: 5px 10px;
+    border-radius: 28px;
+    color: white;
+    text-decoration: none;
+}
+/**************************************
+        GET STARTED SECTION (main)
+**************************************/
+.started {
+    background-color:rgba(150,148,231,255);
+}
+.started-container {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+
+}
+.name{
+    color: gainsboro;
+    padding: 40px 0;
+}
+.started-container h2{
+    color: white;
+    font-size: 35px;
+    padding-bottom: 40px;
+}
+.started-container h1{
+    font-size: 60px;
+    color: goldenrod;
+    padding-bottom: 30px;
+}
+.started-container p{
+    color: white;
+    padding-bottom: 30px;
+}
+.started-button a {
+    background-color: white;
+    color:rgba(150,148,231,255);
+    padding: 15px 60px;
+    border-radius: 28px;
+    text-decoration: none;
+}
+.privacy {
+    padding: 40px 0;
+    color: white; 
+}
+.privacy a {
+    color: white;
+}
+/**************************************
+        FOOTER
+**************************************/
+footer{
+    background-color: #333333;
+    text-align: center;
+}
+.foot-container{
+    width: 90%;
+    margin:auto;
+}
+.foot-container p{
+    padding:30px 0 ;
+    color: white;
+}
+.foot-container a {
+    color: rgba(150,148,231,255);
+}
