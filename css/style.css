@@ -358,3 +358,16 @@ footer{
 .foot-container a {
     color: rgba(150,148,231,255);
 }
+/**************************************
+        tablet version
+**************************************/
+
+@media all and(min-width:481px){
+    .container{
+        display: flex;
+
+    }
+    .card{
+        width: calc(100% / 3);
+    }
+}
