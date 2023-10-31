@@ -443,6 +443,18 @@ footer{
             width: 60%;
             margin: auto;
         }
-
-
+}
+/**************************************
+        deskotpo version
+**************************************/
+@media all and (min-width: 781px) {
+        .head-contain{
+            width: 60%;
+        }
+        .desktop-nav ul {
+        display:flex;
+        }
+        nav i {
+        display: none;
+        }
 }
